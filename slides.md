@@ -43,7 +43,6 @@ class: text-center
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 defaults:
-  layout: center
   class: text-center
   transition: slide
 #layout: cover
@@ -99,9 +98,13 @@ image: /img/slides/friendly_robot.jpg
 backgroundSize: contain
 ---
 
-## DevOps is more than tools
+<span style="position: relative; top: 90%;">
+
+## DevOps is more than tools...
 
 ### It's about people
+
+</span>
 
 <!--
 DevOps is not just about tools and automation, but about people and how they work together. In this talk, we will explore the importance of fostering open and honest communication, constructive conflict resolution, and building a culture of value and recognition within your DevOps team. Emphasizing the importance of the human element in DevOps, even in an increasingly automated world.
@@ -111,14 +114,24 @@ DevOps is not just about tools and automation, but about people and how they wor
 layout: two-cols
 ---
 
-## Jeremy
+<span style="position: relative; top: 30%;">
+
+## Jeremy Meiss{style="color: deepskyblue; background: slategray;"}
+
+<p style="font-weight: bold;">Director, DevEx & DevRel</p>
+<p class="text-sm italic">OneStream Software</p>
+<p style="font-weight: bold;">DevOpsDays KC Organizer</p>
+</span>
 
 ::right::
 
+![alt text](/img/profile-pic2.jpg){style="position: relative; margin: auto; width: 80%; border-radius: 15px 50px; "}
+
+---
+layout: section
 ---
 
-## Communication & Teamwork breakdowns in the modern workplace
-
+## Communication & teamwork breakdowns
 
 <!--
 A multitude of factors can contribute to communication and teamwork breakdowns in the dynamic environment of software development. I'm sure everyone could come up with an example. Maybe you're sitting next to one right now... don't look, but blink twice if you can relate. What are some of the causes of communication breakdowns that you have seen (don't feel like you need to be specific)?
@@ -174,18 +187,37 @@ class: my-cool-content-on-the-left
 
 ### Common Causes of Communication Breakdowns
 
-<v-clicks>
-
 * Conflicting Ideas and Poor Collaboration
 * Barriers to Cross-Cultural and Linguistic Communication
 * Ineffective Organizational Structures and Communication Processes
 * Ambiguous Project Requirements and Technical Miscommunication
 * Communication Skill Deficiencies and Overload
 
+<!--
+**Communication Skill Deficiencies and Overload:** Lack of effective communication skills, combined with information overload, leads to missed deadlines, overlooked issues, and overall team incohesion.
+-->
+
+---
+layout: image-left
+image: /img/slides/teamwork-breakdowns.webp
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+### Common Causes of Teamwork Breakdowns
+
+<v-clicks>
+
+* Lack of shared understanding and commitment
+* Team size and dynamics
+* Lack of trust
+* Insuffient resources
+* Unclear goals and expectations
+
 </v-clicks>
 
 <!--
-A multitude of factors can contribute to communication and teamwork breakdowns in the dynamic environment of software development. Some of the most prevalent causes are: [click]**Conflicting Ideas and Poor Collaboration:** Diverse perspectives are common in software development, but unresolved conflicts can lead to confusion, hinder progress, and significantly reduce productivity. [click]**Barriers to Cross-Cultural and Linguistic Communication:**Globalized teams face challenges due to varying cultural backgrounds and language proficiencies, causing misunderstandings and errors. [click]**Ineffective Organizational Structures and Communication Processes:** Complex team hierarchies and inadequate communication tools or protocols contribute to information silos, delayed decisions, and reduced transparency. [click]**Ambiguous Project Requirements and Technical Miscommunication:** Unclear project requirements and miscommunication between developers (e.g., technical jargon, poor documentation) result in assumptions, rework, and increased development time. [click]**Communication Skill Deficiencies and Overload:** Lack of effective communication skills, combined with information overload, leads to missed deadlines, overlooked issues, and overall team incohesion.
+[click]**Lack of Shared Understanding and Commitment:** Teams struggle when members don't share a clear vision of project goals and individual responsibilities. This misalignment leads to confusion and hinders effective collaboration. [click]**Team Size and Dynamics:** In larger teams, individual effort often diminishes, leading to the "Ringelmann Effect" and decreased productivity. This can also cause communication breakdowns and a general decline in team cohesion. [click]**Lack of Trust:** Without trust, team members hesitate to communicate openly and honestly. This inhibits problem-solving, stifles creativity, and can lead to unresolved conflicts. [click]**Insufficient Resources:** Teams require adequate resources, including time, budget, and tools, to complete tasks effectively. A lack of resources can lead to burnout, missed deadlines, and subpar results. [click]**Unclear Goals and Expectations:** When team members don't understand project objectives or their roles within the team, they struggle to prioritize tasks, make decisions, and work together effectively.
 -->
 
 ---
