@@ -80,7 +80,7 @@ layoutClass: gap-8
 
 <!--
 ## Throwing code over the wall
-Remember when "DevOps" meant throwing code (and maybe a few passive-aggressive emails, that thankfully weren’t meetings) over the wall? How "not my code, not my problem" was a common enough phrase?
+Remember when "DevOps" meant throwing code (and maybe a few passive-aggressive emails, that thankfully weren’t meetings - but of course some were and still are) over the wall? How "not my code, not my problem" was a common enough phrase?
 -->
 
 ---
@@ -114,6 +114,79 @@ layout: two-cols
 ## Jeremy
 
 ::right::
+
+---
+
+## Communication & Teamwork breakdowns in the modern workplace
+
+
+<!--
+A multitude of factors can contribute to communication and teamwork breakdowns in the dynamic environment of software development. I'm sure everyone could come up with an example. Maybe you're sitting next to one right now... don't look, but blink twice if you can relate. What are some of the causes of communication breakdowns that you have seen (don't feel like you need to be specific)?
+-->
+
+---
+layout: image-right
+image: /img/slides/comms-breakdowns.webp
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+### Common Causes of Communication Breakdowns
+
+<v-clicks>
+
+* Conflicting Ideas and Poor Collaboration
+* Barriers to Cross-Cultural and Linguistic Communication
+* Ineffective Organizational Structures and Communication Processes
+* Ambiguous Project Requirements and Technical Miscommunication
+
+</v-clicks>
+
+<!--
+A multitude of factors can contribute to communication and teamwork breakdowns in the dynamic environment of software development. Some of the most prevalent causes are: [click]**Conflicting Ideas and Poor Collaboration:** Diverse perspectives are common in software development, but unresolved conflicts can lead to confusion, hinder progress, and significantly reduce productivity. [click]**Barriers to Cross-Cultural and Linguistic Communication:**Globalized teams face challenges due to varying cultural backgrounds and language proficiencies, causing misunderstandings and errors. [click]**Ineffective Organizational Structures and Communication Processes:** Complex team hierarchies and inadequate communication tools or protocols contribute to information silos, delayed decisions, and reduced transparency. [click]**Ambiguous Project Requirements and Technical Miscommunication:** Unclear project requirements and miscommunication between developers (e.g., technical jargon, poor documentation) result in assumptions, rework, and increased development time.
+-->
+
+---
+layout: center
+---
+
+![alt text](/img/slides/mars-orbiter.jpg){width=600px;}
+
+>"_The 'root cause' of the loss of the spacecraft was the failed translation of English units into metric units in a segment of ground-based, navigation-related mission software..._"
+
+Arthur Stephenson, chairman of the Mars Climate Orbiter Mission Failure Investigation Board
+
+<span style="position: absolute; top: 8%; right: 10px; color: yellow; font-style: italic; font-size: 1rem;">Source: <a href="https://www.jpl.nasa.gov/missions/mars-climate-orbiter/">JPL, NASA</a></span>
+
+<!--
+Any of you remember the Mars Climate Orbiter Mission that ended abruptly in 1999 when it crashed into the surface because Americans use feet and pounds and the rest of the world uses meters and kilograms?
+
+"The 'root cause' of the loss of the spacecraft was the failed translation of English units into metric units in a segment of ground-based, navigation-related mission software...""
+-->
+
+
+---
+layout: image-right
+image: /img/slides/comms-breakdowns.webp
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+### Common Causes of Communication Breakdowns
+
+<v-clicks>
+
+* Conflicting Ideas and Poor Collaboration
+* Barriers to Cross-Cultural and Linguistic Communication
+* Ineffective Organizational Structures and Communication Processes
+* Ambiguous Project Requirements and Technical Miscommunication
+* Communication Skill Deficiencies and Overload
+
+</v-clicks>
+
+<!--
+A multitude of factors can contribute to communication and teamwork breakdowns in the dynamic environment of software development. Some of the most prevalent causes are: [click]**Conflicting Ideas and Poor Collaboration:** Diverse perspectives are common in software development, but unresolved conflicts can lead to confusion, hinder progress, and significantly reduce productivity. [click]**Barriers to Cross-Cultural and Linguistic Communication:**Globalized teams face challenges due to varying cultural backgrounds and language proficiencies, causing misunderstandings and errors. [click]**Ineffective Organizational Structures and Communication Processes:** Complex team hierarchies and inadequate communication tools or protocols contribute to information silos, delayed decisions, and reduced transparency. [click]**Ambiguous Project Requirements and Technical Miscommunication:** Unclear project requirements and miscommunication between developers (e.g., technical jargon, poor documentation) result in assumptions, rework, and increased development time. [click]**Communication Skill Deficiencies and Overload:** Lack of effective communication skills, combined with information overload, leads to missed deadlines, overlooked issues, and overall team incohesion.
+-->
 
 ---
 layout: section
@@ -265,6 +338,81 @@ class: my-cool-content-on-the-left
 
 <!--
 Mediation and Facilitation: When necessary, utilize neutral third parties to help facilitate constructive conversations.
+-->
+
+---
+
+# The Human Factor in DevOps
+## Building a Culture of Value and Recognition
+
+<!--
+
+-->
+
+---
+layout: image-left
+image: /img/slides/regular-appreciation.webp
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+## Building a Culture of Value and Recognition
+
+### Regular Appreciation
+
+<!--
+Regular Appreciation: Implement consistent practices for recognizing and appreciating individual and team efforts, both big and small.
+-->
+
+---
+layout: image-left
+image: /img/slides/growth-opp.webp
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+## Building a Culture of Value and Recognition
+
+### Regular Appreciation
+### Growth Opportunities
+
+<!--
+Growth Opportunities: Provide opportunities for professional development, mentorship, and skill-building to show investment in team members' growth.
+-->
+
+---
+layout: image-left
+image: /img/slides/inclusive-environment.webp
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+## Building a Culture of Value and Recognition
+
+### Regular Appreciation
+### Growth Opportunities
+### Inclusive Environment
+
+<!--
+Inclusive Environment: Foster an inclusive environment where everyone feels respected, valued, and empowered to contribute their unique perspectives.
+-->
+
+---
+layout: image-left
+image: /img/slides/celebrating-successes.webp
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+## Building a Culture of Value and Recognition
+
+### Regular Appreciation
+### Growth Opportunities
+### Inclusive Environment
+### Celebrate Successes
+
+<!--
+Celebrate Successes: Celebrate both individual and team accomplishments, creating a shared sense of achievement.
 -->
 
 ---
