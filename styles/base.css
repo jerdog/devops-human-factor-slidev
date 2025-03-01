@@ -2,10 +2,14 @@
     --slidev-theme-default-headingBg: var(--slidev-theme-accents-blue);
 }
 
+.slidev-layout.section h1::before, .slidev-layout[layout="section"] h1::before { background: var(--slidev-theme-section-headingBg);}
+.slidev-layout.section h2::before, .slidev-layout[layout="default"] h2::before { background: var(--slidev-theme-accents-yellow);}
+.slidev-layout.default h1::before, .slidev-layout[layout="default"] h1::before {background: var(--slidev-theme-section-headingBg);}
+.slidev-layout.default h2::before, .slidev-layout[layout="default"] h2::before {background: var(--slidev-theme-section-headingBg); text-align: center;}
 
 h1 {
     background: var(--slidev-theme-accents-blue);
-    transform: rotate(-1deg);
+    transform: rotate(-3deg);
     color: var(--slidev-theme-default-headingColor);
     margin-left: -0.25em;
     margin-top: -0.25em;
@@ -16,6 +20,7 @@ h1 {
     margin-bottom: 1em;
     z-index: 1;
 }
+h2::before { background: var(--slidev-theme-accents-yellow);}
 h2 {
     background: var(--slidev-theme-accents-yellow);
     transform: rotate(-1deg);
@@ -28,6 +33,7 @@ h2 {
     position: relative;
     margin-bottom: 1em;
     z-index: 1;
+    width: fit-content;
 }
 h3 {
     background: var(--slidev-theme-accents-teal);

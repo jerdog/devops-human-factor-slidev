@@ -131,7 +131,7 @@ layout: two-cols
 layout: section
 ---
 
-## Communication & teamwork breakdowns
+## Communication & Teamwork breakdowns
 
 <!--
 A multitude of factors can contribute to communication and teamwork breakdowns in the dynamic environment of software development. I'm sure everyone could come up with an example. Maybe you're sitting next to one right now... don't look, but blink twice if you can relate. What are some of the causes of communication breakdowns that you have seen (don't feel like you need to be specific)?
@@ -144,7 +144,7 @@ backgroundSize: contain
 class: my-cool-content-on-the-left
 ---
 
-### Common Causes of Communication Breakdowns
+### Common Causes of _Communication_ Breakdowns
 
 <v-clicks>
 
@@ -185,7 +185,7 @@ backgroundSize: contain
 class: my-cool-content-on-the-left
 ---
 
-### Common Causes of Communication Breakdowns
+### Common Causes of _Communication_ Breakdowns
 
 * Conflicting Ideas and Poor Collaboration
 * Barriers to Cross-Cultural and Linguistic Communication
@@ -204,7 +204,7 @@ backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
 
-### Common Causes of Teamwork Breakdowns
+### Common Causes of _Teamwork_ Breakdowns
 
 <v-clicks>
 
@@ -218,6 +218,17 @@ class: my-cool-content-on-the-right
 
 <!--
 [click]**Lack of Shared Understanding and Commitment:** Teams struggle when members don't share a clear vision of project goals and individual responsibilities. This misalignment leads to confusion and hinders effective collaboration. [click]**Team Size and Dynamics:** In larger teams, individual effort often diminishes, leading to the "Ringelmann Effect" and decreased productivity. This can also cause communication breakdowns and a general decline in team cohesion. [click]**Lack of Trust:** Without trust, team members hesitate to communicate openly and honestly. This inhibits problem-solving, stifles creativity, and can lead to unresolved conflicts. [click]**Insufficient Resources:** Teams require adequate resources, including time, budget, and tools, to complete tasks effectively. A lack of resources can lead to burnout, missed deadlines, and subpar results. [click]**Unclear Goals and Expectations:** When team members don't understand project objectives or their roles within the team, they struggle to prioritize tasks, make decisions, and work together effectively.
+-->
+
+---
+layout: center
+---
+
+## Communication & Teamwork breakdowns
+### Improve the Human Factor
+
+<!--
+
 -->
 
 ---
@@ -240,7 +251,7 @@ class: my-cool-content-on-the-right
 
 ## Fostering Open and Honest Communication
 
-### Active Listening
+* Active Listening
 
 <!--
 Active Listening: Encourage team members to truly listen and understand each other's perspectives.
@@ -255,8 +266,8 @@ class: my-cool-content-on-the-right
 
 ## Fostering Open and Honest Communication
 
-### Active Listening
-### Psychological Safety
+* Active Listening
+* Psychological Safety
 
 <!--
 Psychological Safety: Create a safe space where people feel comfortable expressing their ideas, concerns, and even mistakes without fear of judgment.
@@ -271,9 +282,9 @@ class: my-cool-content-on-the-right
 
 ## Fostering Open and Honest Communication
 
-### Active Listening
-### Psychological Safety
-### Regular Feedback
+* Active Listening
+* Psychological Safety
+* Regular Feedback
 
 <!--
 Regular Feedback: Establish regular channels for giving and receiving constructive feedback, both individually and as a team.
@@ -288,14 +299,37 @@ class: my-cool-content-on-the-right
 
 ## Fostering Open and Honest Communication
 
-### Active Listening
-### Psychological Safety
-### Regular Feedback
-### Clear Communication Channels
+* Active Listening
+* Psychological Safety
+* Regular Feedback
+* Clear Communication Channels
 
 <!--
 Clear Communication Channels: Utilize appropriate communication tools and platforms for different purposes (e.g., chat for quick updates, video calls for in-depth discussions).
 -->
+
+---
+layout: image-right
+image: /img/slides/clear-comm-channels.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+### Establish Clear Communication Guidelines
+
+<v-clicks>
+
+* Appropriate communication channels
+* Expected response times
+* Meeting etiquette
+* Concise and solution-oriented communication
+
+</v-clicks>
+
+<!--
+Some key things to think about when establishing clear communication guidelines. [click]**Appropriate Communication Channels:** Specify which channels to use for different types of communication (e.g., email for formal announcements, instant messaging for quick questions, project management tools for task updates). [click]**Expected Response Times:** Set clear expectations for response times to messages, ensuring timely communication and preventing delays. [click]**Meeting Etiquette:** Establish guidelines for effective meetings, including agenda setting, time management, and encouraging active participation. [click]**Concise and Solution-Oriented Communication:** When communicating with managers or stakeholders, prioritize concise and solution-oriented messages. Focus on providing clear summaries, highlighting key issues, and offering potential solutions.
+-->
+
 
 ---
 
@@ -314,7 +348,6 @@ class: my-cool-content-on-the-left
 ---
 
 ## Constructive Conflict Resolution
-
 ### Focus on shared goals
 
 <!--
