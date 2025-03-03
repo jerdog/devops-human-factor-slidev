@@ -210,6 +210,48 @@ class: my-cool-content-on-the-right
 
 * Lack of shared understanding and commitment
 * Team size and dynamics
+
+</v-clicks>
+
+<!--
+[click]**Lack of Shared Understanding and Commitment:** Teams struggle when members don't share a clear vision of project goals and individual responsibilities. This misalignment leads to confusion and hinders effective collaboration. [click]**Team Size and Dynamics:** In larger teams, individual effort often diminishes, leading to the "Ringelmann Effect" and decreased productivity. Who's heard of the Ringelmann Effect?
+-->
+
+---
+layout: two-cols-header
+layoutClass: gap-8
+---
+
+### The Ringlemann Effect
+
+::left::
+
+![alt text](/img/slides/ringlemann-effect.jpg)
+
+::right::
+
+![alt text](/img/slides/tugofwar.jpg)
+
+<span style="position: absolute; bottom: 10%; left: 25px; color: yellow; font-style: italic;">Source: <a href="https://en.wikipedia.org/wiki/Ringelmann_effect">Wikipedia</a></span>
+
+<!--
+Maximilien Ringelmann was a French agricultural engineer in the late 19th Century. While studying the relationship between process loss (i.e., reductions in performance effectiveness or efficiency) and group productivity, he found that having group members work together on a task (e.g., pulling a rope) actually results in significantly less effort than when individual members are acting alone. Ringelmann discovered that as more and more people are added to a group, the group often becomes increasingly inefficient, ultimately violating the notion that group effort and team participation reliably leads to increased effort on behalf of the members.
+-->
+
+---
+layout: image-left
+image: /img/slides/teamwork-breakdowns.webp
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+### Common Causes of _Teamwork_ Breakdowns
+
+* Lack of shared understanding and commitment
+* Team size and dynamics
+
+<v-clicks>
+
 * Lack of trust
 * Insuffient resources
 * Unclear goals and expectations
@@ -217,95 +259,32 @@ class: my-cool-content-on-the-right
 </v-clicks>
 
 <!--
-[click]**Lack of Shared Understanding and Commitment:** Teams struggle when members don't share a clear vision of project goals and individual responsibilities. This misalignment leads to confusion and hinders effective collaboration. [click]**Team Size and Dynamics:** In larger teams, individual effort often diminishes, leading to the "Ringelmann Effect" and decreased productivity. This can also cause communication breakdowns and a general decline in team cohesion. [click]**Lack of Trust:** Without trust, team members hesitate to communicate openly and honestly. This inhibits problem-solving, stifles creativity, and can lead to unresolved conflicts. [click]**Insufficient Resources:** Teams require adequate resources, including time, budget, and tools, to complete tasks effectively. A lack of resources can lead to burnout, missed deadlines, and subpar results. [click]**Unclear Goals and Expectations:** When team members don't understand project objectives or their roles within the team, they struggle to prioritize tasks, make decisions, and work together effectively.
+This can also cause communication breakdowns and a general decline in team cohesion. [click]**Lack of Trust:** Without trust, team members hesitate to communicate openly and honestly. This inhibits problem-solving, stifles creativity, and can lead to unresolved conflicts. [click]**Insufficient Resources:** Teams require adequate resources, including time, budget, and tools, to complete tasks effectively. A lack of resources can lead to burnout, missed deadlines, and subpar results. [click]**Unclear Goals and Expectations:** When team members don't understand project objectives or their roles within the team, they struggle to prioritize tasks, make decisions, and work together effectively.
 -->
 
 ---
-layout: center
+layout: image-right
+image: /img/slides/improve-human-factor.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-left
 ---
 
 ## Communication & Teamwork breakdowns
 ### Improve the Human Factor
 
 <!--
-
+As we've seen, communication and teamwork breakdowns pose significant challenges in modern software development, potentially leading to project delays, increased costs, and even project failures. By understanding these common causes, we can take some proactive steps to mitigate the risks by implementing some solutions to improve the human factor - BEFORE we start thinking about AI and automation.
 -->
 
 ---
 layout: section
 ---
 
-# The Human Factor in DevOps
+# Improving the Human Factor in DevOps
 ## Fostering Open and Honest Communication
 
 <!--
-
--->
-
----
-layout: image-left
-image: /img/slides/open-honest-comms.webp
-backgroundSize: contain
-class: my-cool-content-on-the-right
----
-
-## Fostering Open and Honest Communication
-
-* Active Listening
-
-<!--
-Active Listening: Encourage team members to truly listen and understand each other's perspectives.
--->
-
----
-layout: image-left
-image: /img/slides/psychological-safety.webp
-backgroundSize: contain
-class: my-cool-content-on-the-right
----
-
-## Fostering Open and Honest Communication
-
-* Active Listening
-* Psychological Safety
-
-<!--
-Psychological Safety: Create a safe space where people feel comfortable expressing their ideas, concerns, and even mistakes without fear of judgment.
--->
-
----
-layout: image-left
-image: /img/slides/feedback-loop.webp
-backgroundSize: contain
-class: my-cool-content-on-the-right
----
-
-## Fostering Open and Honest Communication
-
-* Active Listening
-* Psychological Safety
-* Regular Feedback
-
-<!--
-Regular Feedback: Establish regular channels for giving and receiving constructive feedback, both individually and as a team.
--->
-
----
-layout: image-left
-image: /img/slides/clear-comms-channels.webp
-backgroundSize: contain
-class: my-cool-content-on-the-right
----
-
-## Fostering Open and Honest Communication
-
-* Active Listening
-* Psychological Safety
-* Regular Feedback
-* Clear Communication Channels
-
-<!--
-Clear Communication Channels: Utilize appropriate communication tools and platforms for different purposes (e.g., chat for quick updates, video calls for in-depth discussions).
+We can start by fostering open and honest communication within our teams.
 -->
 
 ---
