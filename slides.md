@@ -269,8 +269,8 @@ backgroundSize: contain
 class: my-cool-content-on-the-left
 ---
 
-## Communication & Teamwork breakdowns
-### Improve the Human Factor
+## Communication & Teamwork breakdowns?
+### Improve the Human Factor.
 
 <!--
 As we've seen, communication and teamwork breakdowns pose significant challenges in modern software development, potentially leading to project delays, increased costs, and even project failures. By understanding these common causes, we can take some proactive steps to mitigate the risks by implementing some solutions to improve the human factor - BEFORE we start thinking about AI and automation.
@@ -294,6 +294,7 @@ backgroundSize: contain
 class: my-cool-content-on-the-left
 ---
 
+## Fostering Open and Honest Communication
 ### Establish Clear Communication Guidelines
 
 <v-clicks>
@@ -309,14 +310,97 @@ class: my-cool-content-on-the-left
 Some key things to think about when establishing clear communication guidelines. [click]**Appropriate Communication Channels:** Specify which channels to use for different types of communication (e.g., email for formal announcements, instant messaging for quick questions, project management tools for task updates). [click]**Expected Response Times:** Set clear expectations for response times to messages, ensuring timely communication and preventing delays. [click]**Meeting Etiquette:** Establish guidelines for effective meetings, including agenda setting, time management, and encouraging active participation. [click]**Concise and Solution-Oriented Communication:** When communicating with managers or stakeholders, prioritize concise and solution-oriented messages. Focus on providing clear summaries, highlighting key issues, and offering potential solutions.
 -->
 
-
+---
+layout: image-right
+image: /img/slides/knowledge-sharing.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-left
 ---
 
-# The Human Factor in DevOps
-## Constructive Conflict Resolution
+## Fostering Open and Honest Communication
+### Break Down Information Barriers
+
+<v-clicks>
+
+* Encourage Documentation
+* Use Knowledge Sharing Platforms
+* Promote Cross-Team Communication
+* Simplify Technical Talk
+
+</v-clicks>
 
 <!--
-How many of you have been in a situation where a conflict arose within your team? Conflict is inevitable in any team, but how we manage it can make all the difference.
+To prevent information silos and promote knowledge sharing:
+[click]**Encourage Documentation:** Ensure all project details are recorded and accessible to prevent confusion. [click]**Use Knowledge Sharing Platforms:** Centralize information through platforms to enhance team access and collaboration. [click]**Promote Cross-Team Communication:** Facilitate inter-team communication to share knowledge and avoid conflicts. [click]**Simplify Technical Talk:** Avoid jargon wherever possible, or have a central location where it's explained. Use visuals to illustrate complex concepts. Make sure the necessar context and background is clear for all participants in conversations, discussions, and decisions.
+-->
+
+---
+layout: image-left
+image: /img/slides/right-tools.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+## Fostering Open and Honest Communication
+### Use the Right Tools
+
+<v-clicks>
+
+* Choose Tools that Meet Team Needs
+* Integrate Tools for Seamless Workflow
+* Provide Training and Support
+
+</v-clicks>
+
+<!--
+Selecting appropriate communication and collaboration tools is essential.
+[click]**Choose Tools that Meet Team Needs:** Select tools that align with the team's size, project complexity, and communication preferences. [click]**Integrate Tools for Seamless Workflow:** Ensure chosen tools integrate seamlessly to avoid complexity and context switching. [click]**Provide Training and Support:** Offer training and ongoing support to team members on effective tool usage.
+-->
+
+---
+layout: image-right
+image: /img/slides/critical-thinking.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-left
+---
+
+## Fostering Open and Honest Communication
+### Promote Critical Thinking
+
+<v-clicks>
+
+* Encourage Questioning and Analysis
+* Provide Opportunities for Collaborative Problem-Solving
+* Emphasize Continuous Improvement
+
+</v-clicks>
+
+<!--
+Critical thinking is essential for effective communication and problem-solving. [click]**Encourage Questioning and Analysis:** Promote a culture where team members freely question and critically analyze information. [click]**Provide Opportunities for Collaborative Problem-Solving:** Facilitate team activities that enhance collaborative problem-solving and critical thinking. [click]**Emphasize Continuous Improvement:** Instill a mindset of ongoing evaluation and enhancement of communication practices.
+-->
+
+---
+layout: image-left
+image: /img/slides/open-comms-active-listening.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+## Fostering Open and Honest Communication
+### Practice Open Communication and Active Listening
+
+<v-clicks>
+
+* Encourage Feedback and Open Dialogue
+* Value Diverse Perspectives
+* Provide Training on Active Listening Techniques
+* Address Conflicts Constructively
+
+</v-clicks>
+
+<!--
+Creating a supportive and inclusive environment, along with active listening, is crucial for effective communication.
+[click]**Encourage Feedback and Open Dialogue:** Create a safe space for open and honest communication. [click]**Value Diverse Perspectives:** Embrace diverse viewpoints and actively listen to all team members. [click]**Provide Training on Active Listening Techniques:** Equip team members with active listening skills to enhance communication. [click]**Address Conflicts Constructively:** Establish clear processes for resolving conflicts effectively.
 -->
 
 ---
@@ -326,71 +410,20 @@ backgroundSize: contain
 class: my-cool-content-on-the-left
 ---
 
-## Constructive Conflict Resolution
-### Focus on shared goals
+## About Constructive Conflict Resolution...
+
+<v-clicks>
+
+* Focus on Shared Goals
+* Empathy and Perspective-Taking
+* Collaborative Problem-Solving
+* Mediation and Facilitation
+
+</v-clicks>
 
 <!--
-Focus on Shared Goals: Remind the team of their common objectives and how resolving the conflict will help them achieve those goals.
--->
-
----
-layout: image-right
-image: /img/slides/different-perspectives.webp
-backgroundSize: contain
-class: my-cool-content-on-the-left
----
-
-## Constructive Conflict Resolution
-
-### Focus on shared goals
-### Empathy and Perspective-Taking
-
-<!--
-Empathy and Perspective-Taking: Encourage team members to understand and appreciate different viewpoints.
--->
-
----
-layout: image-right
-image: /img/slides/collaborative-problem-solving.webp
-backgroundSize: contain
-class: my-cool-content-on-the-left
----
-
-## Constructive Conflict Resolution
-
-### Focus on shared goals
-### Empathy and Perspective-Taking
-### Collaborative Problem-Solving
-
-<!--
-Collaborative Problem-Solving: Frame conflict as a problem to be solved together, rather than a battle to be won.
--->
-
----
-layout: image-right
-image: /img/slides/mediation-facilitation.webp
-backgroundSize: contain
-class: my-cool-content-on-the-left
----
-
-## Constructive Conflict Resolution
-
-### Focus on shared goals
-### Empathy and Perspective-Taking
-### Collaborative Problem-Solving
-### Mediation and Facilitation
-
-<!--
-Mediation and Facilitation: When necessary, utilize neutral third parties to help facilitate constructive conversations.
--->
-
----
-
-# The Human Factor in DevOps
-## Building a Culture of Value and Recognition
-
-<!--
-
+How many of you have been in a situation where a conflict arose within your team? Conflict is inevitable in any team, but how we manage it can make all the difference.
+[click]**Focus on Shared Goals:** Remind the team of their common objectives and how resolving the conflict will help them achieve those goals. [click]**Empathy and Perspective-Taking:** Encourage team members to understand and appreciate different viewpoints. [click]**Collaborative Problem-Solving:** Frame conflict as a problem to be solved together, rather than a battle to be won. [click]**Mediation and Facilitation:** When necessary, utilize neutral third parties to help facilitate constructive conversations. Make sure that is not a company/HR resource.
 -->
 
 ---
@@ -400,63 +433,20 @@ backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
 
+# The Human Factor in DevOps
 ## Building a Culture of Value and Recognition
 
-### Regular Appreciation
+<v-clicks>
+
+* Regular Appreciation
+* Growth Opportunities
+* Inclusive Environment
+* Celebrate Successes
+
+</v-clicks>
 
 <!--
-Regular Appreciation: Implement consistent practices for recognizing and appreciating individual and team efforts, both big and small.
--->
-
----
-layout: image-left
-image: /img/slides/growth-opp.webp
-backgroundSize: contain
-class: my-cool-content-on-the-right
----
-
-## Building a Culture of Value and Recognition
-
-### Regular Appreciation
-### Growth Opportunities
-
-<!--
-Growth Opportunities: Provide opportunities for professional development, mentorship, and skill-building to show investment in team members' growth.
--->
-
----
-layout: image-left
-image: /img/slides/inclusive-environment.webp
-backgroundSize: contain
-class: my-cool-content-on-the-right
----
-
-## Building a Culture of Value and Recognition
-
-### Regular Appreciation
-### Growth Opportunities
-### Inclusive Environment
-
-<!--
-Inclusive Environment: Foster an inclusive environment where everyone feels respected, valued, and empowered to contribute their unique perspectives.
--->
-
----
-layout: image-left
-image: /img/slides/celebrating-successes.webp
-backgroundSize: contain
-class: my-cool-content-on-the-right
----
-
-## Building a Culture of Value and Recognition
-
-### Regular Appreciation
-### Growth Opportunities
-### Inclusive Environment
-### Celebrate Successes
-
-<!--
-Celebrate Successes: Celebrate both individual and team accomplishments, creating a shared sense of achievement.
+In order to really foster a positive and productive team environment, it's essential to build a culture of value and recognition. [click]**Regular Appreciation:** Implement consistent practices for recognizing and appreciating individual and team efforts, both big and small. [click]**Growth Opportunities:** Provide opportunities for professional development, mentorship, and skill-building to show investment in team members' growth. [click]**Inclusive Environment:** Foster an inclusive environment where everyone feels respected, valued, and empowered to contribute their unique perspectives. [click]**Celebrate Successes:** Celebrate both individual and team accomplishments, creating a shared sense of achievement.
 -->
 
 ---
