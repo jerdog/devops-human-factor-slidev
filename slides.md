@@ -13,7 +13,7 @@ info: |
   Remember when "DevOps" meant throwing code (and maybe a few passive-aggressive emails, that thankfully weren’t meetings) over the wall? We’d like to think that the last decade and a half has dispelled us of that notion, but has it really? Often when organizations begin their “DevOps Transformation” they focus so much on automation, but the component that is more often than not overlooked is the human element. Human connection.
 
   In this talk, Jeremy will dig into some strategies for building teams that actually work together, and might even come to like each other (though he can’t promise “meetings that are emails” will become a norm). He’ll talk about ways to encourage open communication, resolve conflicts, and create a team culture where everyone feels valued - because even the best automation tools can’t replace a team that actually works together.
-conference: ""
+conference: "DevNexus 2025"
 socialimg: "/img/bluesky-jerdog-white.png"
 favicon: "https://raw.githubusercontent.com/jerdog/jmeiss-me-website/main/assets/images/fav.png"
 keywords: ""
