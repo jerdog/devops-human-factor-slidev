@@ -622,6 +622,8 @@ DevOps principles, with their emphasis on collaboration, automation, and continu
 -->
 
 ---
+layout: center
+---
 
 # The _Human_ in DevOps...
 ## Can also apply to your 🤖 teammate
