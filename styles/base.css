@@ -7,6 +7,17 @@
 .slidev-layout.default h1::before, .slidev-layout[layout="default"] h1::before {background: var(--slidev-theme-section-headingBg);}
 .slidev-layout.default h2::before, .slidev-layout[layout="default"] h2::before {background: var(--slidev-theme-section-headingBg); text-align: center;}
 
+.slidev-layout h3 {text-align: center;}
+.slidev-layout li {margin-left: 0.75em;}
+
+.slidev-layout.default li {justify-content: center;}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
 h1 {
     background: var(--slidev-theme-accents-blue);
     transform: rotate(-3deg);

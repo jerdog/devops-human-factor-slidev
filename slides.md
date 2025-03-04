@@ -54,13 +54,17 @@ transition: slide-left  # slide transition: https://sli.dev/guide/animations.htm
 ## The <span v-mark.red="3"><code>v-mark</code> directive</span> also allows you to add <span v-mark.circle.orange="4">inline marks</span>
 ## <span v-mark.underline.orange>inline markers</span>
 
-layout: intro-image-right
+layout: image-right
 image: /img/slides/humans_and_robot-teammates.jpeg
 backgroundSize: contain
 ---
 
+<span style="position: relative; top: 30%;">
+
 # The Human Factor in DevOps...
 ## Because Even 🤖 Need Good Teammates (Almost)
+
+</span>
 
 <!--
 Set the stage by highlighting the limitations of relying solely on AI in DevOps and emphasize the importance of human-centric approaches.
@@ -114,9 +118,9 @@ DevOps is not just about tools and automation, but about people and how they wor
 layout: two-cols
 ---
 
-<span style="position: relative; top: 30%;">
+<span style="position: relative; top: 20%;">
 
-## Jeremy Meiss{style="color: deepskyblue; background: slategray;"}
+## Jeremy Meiss{style="color: deepskyblue; background: none;"}
 
 <p style="font-weight: bold;">Director, DevEx & DevRel</p>
 <p class="text-sm italic">OneStream Software</p>
@@ -131,6 +135,18 @@ layout: two-cols
 layout: section
 ---
 
+# The Human Factor in DevOps
+## It starts with people...
+
+<!--
+I will say this now, and then I will say it again, that DevOps is not just about tools and automation - it all starts with people and how they work together. But that's not always an easy thing to do because - everyone look around you - often us humans suck. So I am going to first explore common breakdowns in communication and teamwork, and how we can work to overcome them. Then, I'll look at ways that AI/ML can help... and hurt... our teams.
+-->
+
+---
+layout: section
+---
+
+# The Human Factor in DevOps
 ## Communication & Teamwork breakdowns
 
 <!--
@@ -453,43 +469,31 @@ In order to really foster a positive and productive team environment, it's essen
 layout: section
 ---
 
-# AI's impact on teams
+# The _Human_ Factor in DevOps
+## Even 🤖's Can be a Good Teammate (Mostly)
 
 <!--
-How many of your companies have implemented AI in some form or another? AI has become a valuable tool in DevOps, helping teams automate repetitive tasks, analyze data, and make more informed decisions. But as AI becomes more integrated into our workflows, it's essential to consider its impact on team communication and dynamics.
+As I stated earlier, I'm saying this again: DevOps is not just about tools and automation - it all starts with people and how they work together. We have to get that all functioning first before we throw some computer and some ML models in the form of a hipster SaaS company that promises that you'll never have another issue with communication again. Just like we don't throw an AI Agent at any data without first understanding the data, the problem we're trying to solve, and even if the data is correct, as well as the potential biases that could be introduced. So start there.
 -->
 
 ---
-layout: statement
+layout: section
 ---
 
-> "...even in a task where AI outperforms humans, the replacement of a human player by an automated videogame agent decreases team performance. <br>
-> While automation may improve performance in tasks suited to machine learning, we posit that their introduction presents a larger trade-off by disrupting these routines."
-
-<span class="text-sm" style="float:left; text-align:left;">_Dell'Acqua, Fabrizio_ and _Kogut, Bruce_ and _Perkowski, Patryk_ (December 21, 2022).<br />
-Super Mario Meets AI: Experimental Effects of Automation and Skills on Team Performance and Coordination.<br />
-Review of Economics and Statistics, Available at SSRN: https://ssrn.com/abstract=3746564<br /></span>
+## AI's impact on teams
 
 <!--
-A study was conducted at Columbia Business School where they had participants play Super Mario Party, a video game, with a mini-game called "Dash and Dine" which has the players perform different tasks with a teammate. Then they randomly replaced a human player with an automated agent from the game They found that even in a task where AI outperformed humans, the replacement of a human player by an automated videogame agent decreased team performance. While automation may improve performance in tasks suited to machine learning, the introduction of AI presents a larger trade-off by disrupting routines.
+Now, with that being said, how many of your companies have implemented AI in some form or another? AI has become a valuable tool in DevOps, helping teams automate repetitive tasks, analyze data, and make more informed decisions. But as AI becomes more integrated into our workflows, it's essential to consider its impact on team communication and dynamics.
 -->
 
 ---
-
-<!--
-
--->
-
-
----
-layout: two-cols-header
-layoutClass: gap-8
+layout: image-right
+image: /img/slides/ai-positive-impacts.webp
+backgroundSize: contain
+class: my-cool-content-on-the-left
 ---
 
-## AI's impact on team communication and function
-
-::left::
-
+## AI's impact on teams
 ### Positive Impacts
 
 <v-clicks>
@@ -502,8 +506,18 @@ layoutClass: gap-8
 
 </v-clicks>
 
-::right::
+<!--
+AI can have a real positive impact on team communication and function in several ways. [click]**Enhanced Communication:** AI fosters seamless and inclusive communication through real-time translation and personalized experiences. [click]**Automated Scheduling and Coordination:** AI streamlines workflows and prioritizes communication, maximizing team efficiency. [click]**Shared Knowledge Bases:** AI ensures quick access to essential information, promoting effective knowledge sharing and collaboration. [click]**Improved Collaboration and Efficiency:** AI enhances teamwork and productivity by automating tasks and providing integrated workspaces. [click]**Data-Driven Decision-Making and Innovation:** AI empowers informed decisions and creative solutions through data analysis and insight generation.
+-->
 
+---
+layout: image-left
+image: /img/slides/ai-negative-impacts.webp
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+## AI's impact on teams
 ### Negative Impacts
 
 <v-clicks>
@@ -517,7 +531,24 @@ layoutClass: gap-8
 </v-clicks>
 
 <!--
+However, there are some definite negative impacts as well. [click]**Reduced Casual Interactions:** AI-driven tools may reduce the need for casual, face-to-face interactions, potentially weakening informal workplace relationships. [click]**Over-Reliance on Technology:** Over-dependence on AI in communication risks diminishing human connection and creating a disconnect between employees and the organization. [click]**Job Displacement:** AI-powered automation may lead to job displacement in certain roles, causing anxiety and uncertainty among employees. [click]**Bias and Discrimination:** AI algorithms can perpetuate existing biases, leading to unfair outcomes in communication and decision-making. [click]**Distrust of AI:** Human workers may dislike working with AI agents due to a lack of trust and suspicion, potentially hindering AI adoption and team cohesion.
+-->
 
+---
+layout: statement
+---
+
+> "...even in a task where AI outperforms humans, the replacement of a human player by an automated videogame agent decreases team performance. <br>
+> While automation may improve performance in tasks suited to machine learning, we posit that their introduction presents a larger trade-off by disrupting these routines."
+
+<span class="text-sm" style="float:left; text-align:left; padding-bottom: 40px;">_Dell'Acqua, Fabrizio_ and _Kogut, Bruce_ and _Perkowski, Patryk_ (December 21, 2022).<br />
+Super Mario Meets AI: Experimental Effects of Automation and Skills on Team Performance and Coordination.<br />
+Review of Economics and Statistics, Available at SSRN: https://ssrn.com/abstract=3746564<br /></span>
+
+![alt text](/img/slides/super-mario-party.jpg)
+
+<!--
+A study was conducted at Columbia Business School where they had participants play Super Mario Party, a video game, with a mini-game called "Dash and Dine" which has the players perform different tasks with a teammate. Then they randomly replaced a human player with an automated agent from the game They found that even in a task where AI outperformed humans, the replacement of a human player by an automated videogame agent decreased team performance. While automation may improve performance in tasks suited to machine learning, the introduction of AI presents a larger trade-off by disrupting routines.
 -->
 
 ---
@@ -533,10 +564,12 @@ UNESCO in 2023 acknowledged the opportunity for AI, but also warned that AI  rai
 -->
 
 ---
-layout: default
----
 
 ## Ethical considerations for AI in team communication
+
+<span style="text-align: center;">
+
+<v-clicks>
 
 * Data privacy and security
 * Transparency
@@ -544,37 +577,17 @@ layout: default
 * Accountability
 * Employee involvement
 
-<!--
+</v-clicks>
 
--->
-
----
-layout: image
-image: /img/slides/comms_overload.jpg
-backgroundSize: contain
----
-
-# Fostering Open and Honest Communication
-
+</span>
 
 <!--
-How many of you have had a conversation with a chatbot or AI assistant and thought, "Wow, they really get me"? Probably not many. While AI has made significant strides in understanding and responding to human language, it still falls short in capturing the nuances of human emotions and interactions.
-Start with a humorous anecdote about the limitations of AI in understanding and addressing human emotions and complexities.
-Transition to the core message: While AI is a valuable tool in DevOps, true success comes from prioritizing human connection, communication, and collaboration.
-
-
-Effective communication is the bedrock of any successful team, especially in the fast-paced world of DevOps. This section will explore practical techniques for creating a safe and transparent communication environment.
-
-Sub-points:
-Establishing clear communication channels (e.g., chat, regular meetings).
-Promoting active listening and giving constructive feedback.
-Creating a culture where it's okay to make mistakes and ask for help.
-Examples: Implementing daily stand-ups, blameless postmortems, and regular feedback sessions.
+If you're implementing AI in your organization, in any way, here are some ethical considerations to think about: [click]**Data Privacy:** Protect employee data and ensure compliance with data protection regulations. [click]**Transparency:** Be transparent about how AI tools are used and the data they collect. [click]**Fairness:** Ensure AI systems are free from bias and do not discriminate against any individuals or groups. Use a third-party to verify or an internal ERG. Continually review. [click]**Accountability:** Establish clear lines of responsibility and accountability for AI-driven decisions and actions. [click]**Employee Involvement:** Involve employees in the decision-making process for AI implementation to foster excitement, engagement, and responsible AI usage.
 -->
 
 ---
 layout: two-cols
-layoutClass: gap-4
+layoutClass: gap-8
 ---
 
 ![alt text](/img/slides/group_chat_sentiment.jpg)
@@ -585,116 +598,63 @@ layoutClass: gap-4
 
 <!--
 While AI is a valuable tool in DevOps, true success comes from prioritizing human connection, communication, and collaboration. AI can summarize lengthy threads, translate messages in real-time for global teams, suggest quick replies, and even detect sentiment in messages to identify potential communication breakdowns - but it can't replace the human touch or understanding of complex emotions and interactions.
-Briefly outline the key points of the talk: open communication, conflict resolution, and building a culture of value and recognition, with AI as a supporting tool.
 -->
 
 ---
-layout: image-right
-image: /img/slides/open-honest-comms.webp
-backgroundSize: contain
-class: my-cool-content-on-the-left
+layout: center
 ---
 
-## Fostering Open Communication
+# The _Human_ in DevOps
+
+## Applying DevOps Principles to AI
 
 <v-clicks>
 
-- Active Listening
-- Psychological Safety
-- Regular Feedback
-- Clear Communication Channels
+* **Collaboration:** Break down silos and foster teamwork to ensure AI success.
+* **Automation:** Streamline workflows by automating tasks to boost productivity.
+* **Continuous Improvement:** Iteratively refine AI tools through constant monitoring and feedback.
+* **Feedback Loops:** Use AI to gather and implement customer feedback to enhance user experience.
 
 </v-clicks>
 
-
 <!--
-Discuss the crucial role of open communication in DevOps and provide practical strategies for cultivating it within teams.
-
-Emphasize the importance of open and honest communication in breaking down silos and building trust.
-Provide actionable strategies for fostering open communication:
-Active Listening: Encourage team members to truly listen and understand each other's perspectives.
-Psychological Safety: Create a safe space where people feel comfortable expressing their ideas, concerns, and even mistakes without fear of judgment.
-Regular Feedback: Establish regular channels for giving and receiving constructive feedback, both individually and as a team.
-Clear Communication Channels: Utilize appropriate communication tools and platforms for different purposes (e.g., chat for quick updates, video calls for in-depth discussions).
-
-
-## Effective communication is crucial, and AI can help enhance it.
-AI-powered Communication Platforms: Tools like Slack, Microsoft Teams, and Google Workspace are integrating AI features.
-Usage: AI can summarize lengthy threads, translate messages in real-time for global teams, suggest quick replies, and even detect sentiment in messages to identify potential communication breakdowns.
-
-Sentiment Analysis Tools: Standalone tools or APIs (e.g., Google Cloud Natural Language API, Amazon Comprehend) can analyze text and voice data.
-Usage: These can be used to monitor team communication channels for negative sentiment or signs of stress, allowing managers to proactively address issues.
-
-AI-driven Meeting Summarization: Tools like Otter.ai, Fireflies.ai, and Zoom's smart summaries.
-Usage: These tools automatically generate transcripts and summaries of meetings, ensuring everyone is on the same page and reducing the need for extensive note-taking. This also allows for searching meeting content later for key decisions or action items.
-
-Emphasize the importance of open and honest communication in DevOps, especially in a fast-paced, ever-changing environment.
-Discuss the challenges of communication in remote and hybrid teams, and how AI can help bridge the gap.
-Introduce the concept of AI-powered communication tools and how they can facilitate more effective communication.
-
+DevOps principles, with their emphasis on collaboration, automation, and continuous improvement, can be instrumental in maximizing the benefits of AI in team settings: [click]**Collaboration:** Encourage cross-functional collaboration between development, operations, and other teams to ensure AI tools are implemented effectively and ethically. [click]**Automation:** Automate repetitive tasks using AI tools to free up time for more strategic work and improve efficiency. [click]**Continuous Improvement:** Continuously monitor and evaluate the performance of AI tools, gather feedback, and make adjustments to optimize their effectiveness. [click]**Feedback Loops:** Use AI to gather and implement customer feedback to improve products and services and enhance user experience.
 -->
 
 ---
 
-# Constructive Conflict Resolution
-
+# The _Human_ in DevOps...
+## Can also apply to your 🤖 teammate
 
 <!--
-Conflict is inevitable in any team. This section will focus on strategies for managing conflict constructively and turning potentially negative situations into opportunities for growth.
-
-Sub-points:
-Recognizing different conflict styles and communication preferences.
-Developing strategies for de-escalating tense situations.
-Focusing on solutions rather than assigning blame.
-Examples: Using collaborative problem-solving techniques, mediation, and establishing clear guidelines for conflict resolution.
+- The future will see increased AI integration in teamwork, requiring organizations to adapt and learn for responsible and ethical use.
+- Creating a human-centered workplace with AI demands ongoing investment in training, ethical guidelines, and fostering collaboration and trust.
+- Organizations must strategically and ethically implement AI, using DevOps principles to maximize benefits and minimize risks.
 -->
 
 ---
-
-## AI can help identify potential conflict triggers and facilitate more objective discussions.
-
-<!--
-AI-powered Conflict Detection: Using sentiment analysis and communication pattern analysis to identify early signs of conflict.
-Usage: By analyzing communication patterns (e.g., increased negativity, decreased communication frequency, changes in tone), AI can alert managers to potential conflicts before they escalate.
-
-AI-facilitated Mediation: While not fully replacing human mediators, AI tools can provide objective data and insights to help guide discussions.
-Usage: AI can analyze communication during mediation sessions to identify areas of agreement and disagreement, suggest potential solutions, and ensure that all parties are being heard.
-
-Bias Detection Tools: Tools that analyze text for unconscious bias.
-Usage: These can be used to review communication and ensure that language is inclusive and respectful, reducing the potential for misunderstandings and conflict.
--->
-
+layout: two-cols
+layoutClass: gap-8
 ---
 
-# Building a Culture of Value and Recognition
 
+<div style="padding-top:200px; align-items: center; justify-content: center; margin: 0 auto; display: flex;">
 
-<!--
-A team that feels valued and appreciated is more likely to be engaged and productive. This section will explore ways to create a positive and supportive team culture.
+  <h2>Thank you!</h2>
 
-Sub-points:
-Recognizing individual and team accomplishments.
-Providing opportunities for professional development and growth.
-Creating a sense of belonging and shared purpose.
-Examples: Implementing peer-to-peer recognition programs, providing training opportunities, and organizing team-building activities.
--->
+</div>
 
----
+::right::
 
-## AI can help ensure recognition is fair and consistent.
-
-<!--
-AI-driven Performance Analytics: Tools that analyze performance data to identify top performers and areas for improvement.
-Usage: These tools can help ensure that recognition is based on objective data rather than subjective opinions, promoting fairness and transparency.
-
-Automated Recognition Platforms: Platforms that use AI to personalize recognition and rewards.
-Usage: These platforms can analyze employee preferences and suggest personalized rewards and recognition, making the process more meaningful and impactful.
--->
+<div class="text-left" style="padding-left: 75px;">
+  <p><img src="/img/bluesky-logo.svg" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px">@jerdog.dev</p>
+  <p><img src="/img/linkedin.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px">/in/jeremymeiss</p>
+  <p><img src="/img/devto.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px">@jerdog</p>
+  <p><img src="/img/mastodon.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px">@jerdog@hachyderm.io</p>
+  <p><img src="/img/www.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px">jmeiss.me</p>
+  <p style="text-decoration: line-through;"><img src="/img/twitter.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px; padding-right:10px;">@IAmJerdog</p>
+</div>
 
 ---
-
-# Conclusion
-
+layout: end
 ---
-
-## Thank you!
