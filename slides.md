@@ -564,10 +564,13 @@ UNESCO in 2023 acknowledged the opportunity for AI, but also warned that AI  rai
 -->
 
 ---
+layout: image-left
+image: /img/slides/ai-ethical-concerns.webp
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
 
 ## Ethical considerations for AI in team communication
-
-<span style="text-align: center;">
 
 <v-clicks>
 
@@ -578,8 +581,6 @@ UNESCO in 2023 acknowledged the opportunity for AI, but also warned that AI  rai
 * Employee involvement
 
 </v-clicks>
-
-</span>
 
 <!--
 If you're implementing AI in your organization, in any way, here are some ethical considerations to think about: [click]**Data Privacy:** Protect employee data and ensure compliance with data protection regulations. [click]**Transparency:** Be transparent about how AI tools are used and the data they collect. [click]**Fairness:** Ensure AI systems are free from bias and do not discriminate against any individuals or groups. Use a third-party to verify or an internal ERG. Continually review. [click]**Accountability:** Establish clear lines of responsibility and accountability for AI-driven decisions and actions. [click]**Employee Involvement:** Involve employees in the decision-making process for AI implementation to foster excitement, engagement, and responsible AI usage.
@@ -601,19 +602,22 @@ While AI is a valuable tool in DevOps, true success comes from prioritizing huma
 -->
 
 ---
-layout: center
+layout: image-right
+image: /img/slides/devops-ai-principles.webp
+backgroundSize: contain
+class: my-cool-content-on-the-left
 ---
 
-# The _Human_ in DevOps
+## The _Human_ in DevOps
 
-## Applying DevOps Principles to AI
+### Applying DevOps Principles to AI
 
 <v-clicks>
 
-* **Collaboration:** Break down silos and foster teamwork to ensure AI success.
+* **Collaboration:** Break down silos, foster teamwork to ensure AI success.
 * **Automation:** Streamline workflows by automating tasks to boost productivity.
-* **Continuous Improvement:** Iteratively refine AI tools through constant monitoring and feedback.
-* **Feedback Loops:** Use AI to gather and implement customer feedback to enhance user experience.
+* **Continuous Improvement:** Iteratively refine AI tools through constant monitoring & feedback.
+* **Feedback Loops:** Gather & implement customer feedback to enhance user experience via AI.
 
 </v-clicks>
 
